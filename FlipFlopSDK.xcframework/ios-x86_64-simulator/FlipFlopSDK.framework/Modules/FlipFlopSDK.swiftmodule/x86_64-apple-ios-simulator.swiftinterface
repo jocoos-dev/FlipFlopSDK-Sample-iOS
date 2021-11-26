@@ -770,7 +770,10 @@ public protocol VideoRoomPluginDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers public class VideoRoomPlugin : ObjectiveC.NSObject {
   weak public var delegate: FlipFlopSDK.VideoRoomPluginDelegate?
+  public var localCameraView: WebRTC.RTCCameraPreviewView?
+  public func remoteView(userID: Swift.String) -> WebRTC.RTCEAGLVideoView?
   public func prepare(preview: UIKit.UIView, config: FlipFlopSDK.MediaConfig? = nil)
+  public func prepare(config: FlipFlopSDK.MediaConfig? = nil)
   public func connect(url: Swift.String)
   public func disconnect()
   public func reset()
