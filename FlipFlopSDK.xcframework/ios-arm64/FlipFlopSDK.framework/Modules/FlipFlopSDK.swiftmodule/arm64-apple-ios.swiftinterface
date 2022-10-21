@@ -447,6 +447,7 @@ public protocol FFPlayerDelegate : AnyObject {
   public func reset()
   public func sendMessage(text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
   public func sendWhispher(receiver: Swift.String, text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
+  public func sendDM(receiver: Swift.String, text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
   @objc deinit
 }
 extension FlipFlopSDK.FFPlayer : FlipFlopSDK.HLSPlayerDelegate {
@@ -1858,6 +1859,7 @@ public enum StreamingProtocol : Swift.Int {
   public func reset()
   public func sendMessage(text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
   public func sendWhispher(receiver: Swift.String, text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
+  public func sendDM(receiver: Swift.String, text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
   public func sendCommand(text: Swift.String, data: Swift.String? = nil, customType: Swift.String? = nil)
   public func switchCamera()
   public func videoMirror(mirror: Swift.Bool)
