@@ -2196,13 +2196,20 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "FlipFlopSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlipFlopSDK"
       },
       {
         "kind": "Import",
@@ -4076,6 +4083,119 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uploadVideo",
+            "printedName": "uploadVideo(videoUrl:thumbnailUrl:title:content:data:visibility:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), FlipFlopSDK.FFError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), FlipFlopSDK.FFError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), FlipFlopSDK.FFError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FFError",
+                            "printedName": "FlipFlopSDK.FFError",
+                            "usr": "c:@M@FlipFlopSDK@objc(cs)FFError"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FlipFlopSDK0aB0C11uploadVideo8videoUrl09thumbnailG05title7content4data10visibility10completiony10Foundation3URLV_ANS3SSgAOys6ResultOyytAA7FFErrorCGcSgtF",
+            "mangledName": "$s11FlipFlopSDK0aB0C11uploadVideo8videoUrl09thumbnailG05title7content4data10visibility10completiony10Foundation3URLV_ANS3SSgAOys6ResultOyytAA7FFErrorCGcSgtF",
+            "moduleName": "FlipFlopSDK",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -60688,63 +60808,70 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 183,
       "length": 13,
       "value": "\"flipflopsdk\""
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
+      "offset": 3069,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "StringLiteral",
-      "offset": 3029,
+      "offset": 3107,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "BooleanLiteral",
-      "offset": 3070,
+      "offset": 3148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "IntegerLiteral",
-      "offset": 8723,
+      "offset": 8801,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "IntegerLiteral",
-      "offset": 8738,
+      "offset": 8816,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "BooleanLiteral",
-      "offset": 10628,
+      "offset": 10706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "FloatLiteral",
-      "offset": 15896,
+      "offset": 15974,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 20970,
+      "length": 8,
+      "value": "\"PUBLIC\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
+      "kind": "StringLiteral",
+      "offset": 3011,
       "length": 8,
       "value": "\"FlipFlopSDK.FlipFlop\""
     },
@@ -63810,14 +63937,14 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11805,
+      "offset": 11811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
       "kind": "StringLiteral",
-      "offset": 11649,
+      "offset": 11655,
       "length": 17,
       "value": "\"FlipFlopSDK.FFVideoListLoader\""
     },
@@ -66620,6 +66747,13 @@
       "offset": 762,
       "length": 4,
       "value": "\"ko\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/api\/HTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopMediaSDK\/rtmp\/Sources\/FLV\/FLVSoundSize.swift",
@@ -70740,7 +70874,7 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/api\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 3286,
       "length": 2,
       "value": "\"\""
     },
@@ -70754,7 +70888,7 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/api\/APIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 23196,
+      "offset": 23697,
       "length": 5,
       "value": "false"
     },

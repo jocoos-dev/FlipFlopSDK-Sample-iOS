@@ -634,6 +634,7 @@ SWIFT_CLASS("_TtC11FlipFlopSDK8MTHKView")
 @end
 
 
+
 /// The NetSocket class creates a two-way connection  between a client and a server. This class is wrapper for a InputStream and an OutputStream.
 SWIFT_CLASS("_TtC11FlipFlopSDK9NetSocket")
 @interface NetSocket : NSObject

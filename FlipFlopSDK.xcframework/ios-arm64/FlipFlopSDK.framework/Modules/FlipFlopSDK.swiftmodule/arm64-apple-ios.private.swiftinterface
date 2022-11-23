@@ -120,6 +120,7 @@ public protocol Running : AnyObject {
   func startRunning()
   func stopRunning()
 }
+public typealias UploadProgressBlock = ((Swift.Float) -> Swift.Void)?
 public struct Config {
   public init(isDev: Swift.Bool)
   public init(apiServerURI: Swift.String, rtmpServerURI: Swift.String, webrtcServerURI: Swift.String, gossipServerURI: Swift.String)
@@ -164,6 +165,7 @@ public struct Config {
   public func updateVideoSource(key: Swift.String, source_type: Swift.Int, completion: ((Swift.Result<FlipFlopSDK.FFVideoInfo?, FlipFlopSDK.FFError>) -> Swift.Void)?)
   public func uploadVideoThumbnail(videokey: Swift.String, image: UIKit.UIImage, jpegQuality: CoreFoundation.CGFloat = 0.7, completion: ((Swift.Result<Swift.String, FlipFlopSDK.FFError>) -> Swift.Void)?)
   public func uploadVideoThumbnail(videokey: Swift.String, data: Foundation.Data, completion: ((Swift.Result<Swift.String, FlipFlopSDK.FFError>) -> Swift.Void)?)
+  public func uploadVideo(videoUrl: Foundation.URL, thumbnailUrl: Foundation.URL, title: Swift.String, content: Swift.String, data: Swift.String? = nil, visibility: Swift.String? = "PUBLIC", completion: ((Swift.Result<Swift.Void, FlipFlopSDK.FFError>) -> Swift.Void)?)
 }
 public enum FLVAVCPacketType : Swift.UInt8 {
   case seq
