@@ -15189,6 +15189,256 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FFMessageMeta",
+        "printedName": "FFMessageMeta",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hidden",
+            "printedName": "hidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta(py)hidden",
+            "mangledName": "$s11FlipFlopSDK13FFMessageMetaC6hiddenSbvp",
+            "moduleName": "FlipFlopSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta(im)hidden",
+                "mangledName": "$s11FlipFlopSDK13FFMessageMetaC6hiddenSbvg",
+                "moduleName": "FlipFlopSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "profanity",
+            "printedName": "profanity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta(py)profanity",
+            "mangledName": "$s11FlipFlopSDK13FFMessageMetaC9profanitySbvp",
+            "moduleName": "FlipFlopSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta(im)profanity",
+                "mangledName": "$s11FlipFlopSDK13FFMessageMetaC9profanitySbvg",
+                "moduleName": "FlipFlopSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FFMessageMeta",
+                "printedName": "FlipFlopSDK.FFMessageMeta",
+                "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta(im)init",
+            "mangledName": "$s11FlipFlopSDK13FFMessageMetaCACycfc",
+            "moduleName": "FlipFlopSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@FlipFlopSDK@objc(cs)FFMessageMeta(py)description",
+            "mangledName": "$s11FlipFlopSDK13FFMessageMetaC11descriptionSSvp",
+            "moduleName": "FlipFlopSDK",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@FlipFlopSDK@objc(cs)FFMessageMeta(im)description",
+                "mangledName": "$s11FlipFlopSDK13FFMessageMetaC11descriptionSSvg",
+                "moduleName": "FlipFlopSDK",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta",
+        "mangledName": "$s11FlipFlopSDK13FFMessageMetaC",
+        "moduleName": "FlipFlopSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FFMessage",
         "printedName": "FFMessage",
         "children": [
@@ -15773,6 +16023,72 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessage(im)customType",
                 "mangledName": "$s11FlipFlopSDK9FFMessageC10customTypeSSSgvg",
+                "moduleName": "FlipFlopSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "meta",
+            "printedName": "meta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FlipFlopSDK.FFMessageMeta?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FFMessageMeta",
+                    "printedName": "FlipFlopSDK.FFMessageMeta",
+                    "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessage(py)meta",
+            "mangledName": "$s11FlipFlopSDK9FFMessageC4metaAA0D4MetaCSgvp",
+            "moduleName": "FlipFlopSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FlipFlopSDK.FFMessageMeta?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FFMessageMeta",
+                        "printedName": "FlipFlopSDK.FFMessageMeta",
+                        "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessageMeta"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlipFlopSDK@objc(cs)FFMessage(im)meta",
+                "mangledName": "$s11FlipFlopSDK9FFMessageC4metaAA0D4MetaCSgvg",
                 "moduleName": "FlipFlopSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -60864,7 +61180,7 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/FlipFlop.swift",
       "kind": "StringLiteral",
-      "offset": 20970,
+      "offset": 22258,
       "length": 8,
       "value": "\"PUBLIC\""
     },
@@ -63880,71 +64196,92 @@
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1262,
-      "length": 9,
-      "value": "\"FlipFlopSDK.FFMessage\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4028,
+      "kind": "BooleanLiteral",
+      "offset": 1389,
       "length": 5,
-      "value": "50000"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4059,
-      "length": 5,
-      "value": "10000"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "StringLiteral",
-      "offset": 4085,
-      "length": 7,
-      "value": "\"FlipFlopSDK.FFError\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5848,
-      "length": 10,
-      "value": "\"FlipFlopSDK.FFVideoEnd\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "StringLiteral",
-      "offset": 6498,
-      "length": 13,
-      "value": "\"FlipFlopSDK.FFStreamEvent\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "StringLiteral",
-      "offset": 7209,
-      "length": 9,
-      "value": "\"FlipFlopSDK.FFMyLives\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
-      "kind": "StringLiteral",
-      "offset": 8452,
-      "length": 11,
-      "value": "\"FlipFlopSDK.FFVideoInfo\""
+      "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 11811,
+      "offset": 1414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
       "kind": "StringLiteral",
-      "offset": 11655,
+      "offset": 1263,
+      "length": 13,
+      "value": "\"FlipFlopSDK.FFMessageMeta\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1685,
+      "length": 9,
+      "value": "\"FlipFlopSDK.FFMessage\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4581,
+      "length": 5,
+      "value": "50000"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4612,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4638,
+      "length": 7,
+      "value": "\"FlipFlopSDK.FFError\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6401,
+      "length": 10,
+      "value": "\"FlipFlopSDK.FFVideoEnd\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7051,
+      "length": 13,
+      "value": "\"FlipFlopSDK.FFStreamEvent\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 7762,
+      "length": 9,
+      "value": "\"FlipFlopSDK.FFMyLives\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 9005,
+      "length": 11,
+      "value": "\"FlipFlopSDK.FFVideoInfo\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12364,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/model\/FlipFlopModel.swift",
+      "kind": "StringLiteral",
+      "offset": 12208,
       "length": 17,
       "value": "\"FlipFlopSDK.FFVideoListLoader\""
     },
@@ -70874,7 +71211,7 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/api\/APIClient.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3398,
       "length": 2,
       "value": "\"\""
     },
@@ -70888,7 +71225,7 @@
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/api\/APIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 23697,
+      "offset": 24623,
       "length": 5,
       "value": "false"
     },
