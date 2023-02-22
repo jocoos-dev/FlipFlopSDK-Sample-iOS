@@ -70016,7 +70016,7 @@
       "kind": "FloatLiteral",
       "offset": 604,
       "length": 4,
-      "value": "60.0"
+      "value": "25.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopMediaSDK\/rtmp\/Sources\/ISO\/TransportStream.swift",
@@ -71150,7 +71150,7 @@
       "kind": "FloatLiteral",
       "offset": 3111,
       "length": 4,
-      "value": "60.0"
+      "value": "25.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/chat\/StompClientLib.swift",
@@ -72914,7 +72914,7 @@
       "kind": "FloatLiteral",
       "offset": 2672,
       "length": 4,
-      "value": "60.0"
+      "value": "25.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/jocoos-dev\/flipflop-ios-sdk\/FlipFlopSDK_IOS\/streamer\/FFStreamer.swift",
