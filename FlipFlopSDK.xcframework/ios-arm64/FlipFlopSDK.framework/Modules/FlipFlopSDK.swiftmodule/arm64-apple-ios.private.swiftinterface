@@ -329,6 +329,14 @@ extension UIKit.UIImage {
     get
     set
   }
+  public var delays: [Swift.Int]? {
+    get
+    set
+  }
+  public var startDelayTime: Swift.Int64 {
+    get
+    set
+  }
   public var imageData: Foundation.Data? {
     get
     set
