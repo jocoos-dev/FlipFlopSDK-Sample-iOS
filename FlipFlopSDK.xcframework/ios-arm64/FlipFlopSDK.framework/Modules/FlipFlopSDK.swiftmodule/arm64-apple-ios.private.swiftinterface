@@ -532,16 +532,6 @@ extension FlipFlopSDK.FFStat {
     @objc get
   }
 }
-@_hasMissingDesignatedInitializers @objc public class FFMessageMeta : ObjectiveC.NSObject {
-  @objc final public let hidden: Swift.Bool
-  @objc final public let profanity: Swift.Bool
-  @objc deinit
-}
-extension FlipFlopSDK.FFMessageMeta {
-  @objc override dynamic public var description: Swift.String {
-    @objc get
-  }
-}
 @_hasMissingDesignatedInitializers @objc public class FFMessage : ObjectiveC.NSObject {
   @objc final public let type: Swift.String
   @objc final public let id: Swift.String
@@ -552,7 +542,6 @@ extension FlipFlopSDK.FFMessageMeta {
   @objc public var avatarProfileURL: Swift.String?
   @objc final public let data: Swift.String?
   @objc final public let customType: Swift.String?
-  @objc final public let meta: FlipFlopSDK.FFMessageMeta?
   @objc deinit
 }
 extension FlipFlopSDK.FFMessage {

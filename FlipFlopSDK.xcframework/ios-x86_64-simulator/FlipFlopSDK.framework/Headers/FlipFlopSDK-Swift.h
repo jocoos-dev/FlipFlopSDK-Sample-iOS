@@ -354,7 +354,6 @@ SWIFT_CLASS("_TtC11FlipFlopSDK7FFError")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class FFMessageMeta;
 
 SWIFT_CLASS("_TtC11FlipFlopSDK9FFMessage")
 @interface FFMessage : NSObject
@@ -367,27 +366,12 @@ SWIFT_CLASS("_TtC11FlipFlopSDK9FFMessage")
 @property (nonatomic, copy) NSString * _Nullable avatarProfileURL;
 @property (nonatomic, readonly, copy) NSString * _Nullable data;
 @property (nonatomic, readonly, copy) NSString * _Nullable customType;
-@property (nonatomic, readonly, strong) FFMessageMeta * _Nullable meta;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 @interface FFMessage (SWIFT_EXTENSION(FlipFlopSDK))
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
-
-
-SWIFT_CLASS("_TtC11FlipFlopSDK13FFMessageMeta")
-@interface FFMessageMeta : NSObject
-@property (nonatomic, readonly) BOOL hidden;
-@property (nonatomic, readonly) BOOL profanity;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface FFMessageMeta (SWIFT_EXTENSION(FlipFlopSDK))
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 @end
 
