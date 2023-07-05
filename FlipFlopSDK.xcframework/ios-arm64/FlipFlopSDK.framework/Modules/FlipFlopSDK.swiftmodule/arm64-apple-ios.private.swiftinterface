@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlipFlopSDK
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlipFlopSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
@@ -122,7 +122,7 @@ public protocol Running : AnyObject {
 }
 public typealias UploadProgressBlock = ((Swift.Float) -> Swift.Void)?
 public struct Config {
-  public init(isDev: Swift.Bool)
+  public init()
   public init(apiServerURI: Swift.String, rtmpServerURI: Swift.String, webrtcServerURI: Swift.String, gossipServerURI: Swift.String)
 }
 @objc @_hasMissingDesignatedInitializers public class FlipFlop : ObjectiveC.NSObject {
@@ -195,6 +195,22 @@ extension UIKit.UIColor {
 extension CoreImage.CIImage {
   public class func image(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, color: UIKit.UIColor, cornerRadius: CoreFoundation.CGFloat) -> CoreImage.CIImage
   public class func alphaImage(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, color: UIKit.UIColor, cornerRadius: CoreFoundation.CGFloat, alpha: CoreFoundation.CGFloat) -> CoreImage.CIImage
+}
+public enum TransitionType {
+  case none
+  case fade_in_out
+  case slide_to_left
+  case slide_to_top
+  case slide_to_camera_bottom
+  case fade_in_pip
+  public static func == (a: FlipFlopSDK.TransitionType, b: FlipFlopSDK.TransitionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TransitionParams {
+  public init(transitionType: FlipFlopSDK.TransitionType = .slide_to_left, duration: Foundation.TimeInterval = 0.3, pipTop: CoreFoundation.CGFloat = 0.2, pipRight: CoreFoundation.CGFloat = 0.2, pipRatio: CoreFoundation.CGFloat = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.5)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class HKView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
@@ -345,6 +361,10 @@ extension UIKit.UIImage {
     get
     set
   }
+}
+public struct ZoomInfo {
+  public let min: CoreFoundation.CGFloat
+  public let max: CoreFoundation.CGFloat
 }
 public enum VideoFilter {
   case none
@@ -1828,10 +1848,18 @@ public enum StreamingProtocol : Swift.Int {
     get
   }
 }
+public protocol FFZoomChangeDelegate : AnyObject {
+  func onZoomChanged(zoomFactor: CoreFoundation.CGFloat)
+}
 @objc @_hasMissingDesignatedInitializers public class FFStreamer : ObjectiveC.NSObject {
   weak public var delegate: FlipFlopSDK.FFStreamerDelegate?
   public var autoRetryTime: Swift.Double
   public var chatHeartbitTime: Swift.Double
+  weak public var zoomChangeDelegate: FlipFlopSDK.FFZoomChangeDelegate?
+  public var isGestureEnabled: Swift.Bool {
+    get
+    set
+  }
   public var continuousAutofocus: Swift.Bool {
     get
     set
@@ -1874,8 +1902,11 @@ public enum StreamingProtocol : Swift.Int {
   public func switchCamera()
   public func videoMirror(mirror: Swift.Bool)
   public func zoom(factor: CoreFoundation.CGFloat)
+  public func getCameraZoomInfo() -> FlipFlopSDK.ZoomInfo
   public func setBackground(backgroundImage: UIKit.UIImage?, scale: CoreFoundation.CGFloat = 0.25)
   public func setBackground(asset: AVFoundation.AVAsset?)
+  public func showImage(overlayImage: UIKit.UIImage, transitionParams: FlipFlopSDK.TransitionParams = TransitionParams())
+  public func hideImage()
   public func setFilter(filter: FlipFlopSDK.VideoFilter)
   public func playGif(named: Swift.String, completion: (() -> Swift.Void)?) throws
   public func mute(on: Swift.Bool)
@@ -1899,6 +1930,9 @@ extension FlipFlopSDK.FFStreamer : FlipFlopSDK.WebRTCStreamerDelegate {
   public func onWebRTCStarted()
   public func onWebRTCStopped()
   public func onWebRTCError(notification: Foundation.Notification)
+}
+extension FlipFlopSDK.FFStreamer {
+  public func onZoomChanged(zoomFactor: CoreFoundation.CGFloat)
 }
 extension FlipFlopSDK.FFStreamer {
   public func onConnected()
@@ -1935,6 +1969,8 @@ extension FlipFlopSDK.FLVAVCPacketType : Swift.RawRepresentable {}
 extension FlipFlopSDK.FLVFrameType : Swift.Equatable {}
 extension FlipFlopSDK.FLVFrameType : Swift.Hashable {}
 extension FlipFlopSDK.FLVFrameType : Swift.RawRepresentable {}
+extension FlipFlopSDK.TransitionType : Swift.Equatable {}
+extension FlipFlopSDK.TransitionType : Swift.Hashable {}
 extension FlipFlopSDK.FLVTagType : Swift.Equatable {}
 extension FlipFlopSDK.FLVTagType : Swift.Hashable {}
 extension FlipFlopSDK.FLVTagType : Swift.RawRepresentable {}

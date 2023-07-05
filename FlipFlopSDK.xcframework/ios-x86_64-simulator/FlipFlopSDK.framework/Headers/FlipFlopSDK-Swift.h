@@ -464,6 +464,7 @@ SWIFT_CLASS("_TtC11FlipFlopSDK10FFStreamer")
 
 
 
+
 SWIFT_CLASS("_TtC11FlipFlopSDK16FFStreamerConfig")
 @interface FFStreamerConfig : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -656,6 +657,7 @@ SWIFT_CLASS("_TtC11FlipFlopSDK10NetService")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
 @class NSNetService;
 @class NSInputStream;
 @class NSOutputStream;
@@ -663,7 +665,6 @@ SWIFT_CLASS("_TtC11FlipFlopSDK10NetService")
 @interface NetService (SWIFT_EXTENSION(FlipFlopSDK)) <NSNetServiceDelegate>
 - (void)netService:(NSNetService * _Nonnull)sender didAcceptConnectionWithInputStream:(NSInputStream * _Nonnull)inputStream outputStream:(NSOutputStream * _Nonnull)outputStream;
 @end
-
 
 
 
