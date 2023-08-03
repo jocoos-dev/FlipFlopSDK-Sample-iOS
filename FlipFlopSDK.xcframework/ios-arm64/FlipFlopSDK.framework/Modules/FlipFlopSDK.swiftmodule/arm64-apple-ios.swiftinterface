@@ -203,6 +203,7 @@ public enum TransitionType {
   case slide_to_top
   case slide_to_camera_bottom
   case fade_in_pip
+  case enter_top
   public static func == (a: FlipFlopSDK.TransitionType, b: FlipFlopSDK.TransitionType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -1851,11 +1852,26 @@ public enum StreamingProtocol : Swift.Int {
 public protocol FFZoomChangeDelegate : AnyObject {
   func onZoomChanged(zoomFactor: CoreFoundation.CGFloat)
 }
+public enum AlarmState {
+  case normal
+  case alert_level_1
+  case alert_level_2
+  case alert_level_3
+  public static func == (a: FlipFlopSDK.AlarmState, b: FlipFlopSDK.AlarmState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol FFAlarmDelegate : AnyObject {
+  func onAlarmPublished(state: FlipFlopSDK.AlarmState)
+}
 @objc @_hasMissingDesignatedInitializers public class FFStreamer : ObjectiveC.NSObject {
   weak public var delegate: FlipFlopSDK.FFStreamerDelegate?
   public var autoRetryTime: Swift.Double
   public var chatHeartbitTime: Swift.Double
   weak public var zoomChangeDelegate: FlipFlopSDK.FFZoomChangeDelegate?
+  weak public var alarmDelegate: FlipFlopSDK.FFAlarmDelegate?
   public var isGestureEnabled: Swift.Bool {
     get
     set
@@ -1916,6 +1932,7 @@ public protocol FFZoomChangeDelegate : AnyObject {
 extension FlipFlopSDK.FFStreamer {
   public func onInSufficentBW()
   public func onSufficentBW()
+  public func onAlarmchanged(insufficientCount: Swift.Int)
   public func onRTMPConnected()
   public func onRTMPDisconnected()
   public func onRTMPStarted()
@@ -2037,3 +2054,5 @@ extension FlipFlopSDK.RTMPObjectEncoding : Swift.RawRepresentable {}
 extension FlipFlopSDK.StreamingProtocol : Swift.Equatable {}
 extension FlipFlopSDK.StreamingProtocol : Swift.Hashable {}
 extension FlipFlopSDK.StreamingProtocol : Swift.RawRepresentable {}
+extension FlipFlopSDK.AlarmState : Swift.Equatable {}
+extension FlipFlopSDK.AlarmState : Swift.Hashable {}
