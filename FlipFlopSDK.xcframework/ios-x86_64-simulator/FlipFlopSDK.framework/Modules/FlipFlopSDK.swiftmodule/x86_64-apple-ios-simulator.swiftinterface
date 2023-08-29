@@ -204,6 +204,7 @@ public enum TransitionType {
   case slide_to_camera_bottom
   case fade_in_pip
   case enter_top
+  case enter_fade_in
   public static func == (a: FlipFlopSDK.TransitionType, b: FlipFlopSDK.TransitionType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -1922,7 +1923,7 @@ public protocol FFAlarmDelegate : AnyObject {
   public func setBackground(backgroundImage: UIKit.UIImage?, scale: CoreFoundation.CGFloat = 0.25)
   public func setBackground(asset: AVFoundation.AVAsset?)
   public func showImage(overlayImage: UIKit.UIImage, transitionParams: FlipFlopSDK.TransitionParams = TransitionParams())
-  public func hideImage()
+  public func hideImage(transitionParams: FlipFlopSDK.TransitionParams? = nil)
   public func setFilter(filter: FlipFlopSDK.VideoFilter)
   public func playGif(named: Swift.String, completion: (() -> Swift.Void)?) throws
   public func mute(on: Swift.Bool)
