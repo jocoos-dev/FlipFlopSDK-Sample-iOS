@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlipFlopSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFAudio
 import AVFoundation
 import AVKit
 import AWSLogs
@@ -19,6 +20,7 @@ import ImageIO
 import Logboard
 import MetalKit
 import Network
+import OSLog
 import Queuer
 import SocketRocket
 import Starscream
@@ -207,6 +209,11 @@ extension CoreImage.CIImage {
   public class func image(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, color: UIKit.UIColor, cornerRadius: CoreFoundation.CGFloat) -> CoreImage.CIImage
   public class func alphaImage(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, color: UIKit.UIColor, cornerRadius: CoreFoundation.CGFloat, alpha: CoreFoundation.CGFloat) -> CoreImage.CIImage
 }
+public enum VideoTransitionParams {
+  case overlay_on_center(duration: Foundation.TimeInterval = 0.2)
+  case overlay_on_top(duration: Foundation.TimeInterval = 0.2)
+  case overlay_from_top(duration: Foundation.TimeInterval = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.7)
+}
 public enum TransitionType {
   case none
   case fade_in_out
@@ -223,7 +230,7 @@ public enum TransitionType {
   }
 }
 public struct TransitionParams {
-  public init(transitionType: FlipFlopSDK.TransitionType = .slide_to_left, duration: Foundation.TimeInterval = 0.3, pipTop: CoreFoundation.CGFloat = 0.2, pipRight: CoreFoundation.CGFloat = 0.2, pipRatio: CoreFoundation.CGFloat = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.5)
+  public init(transitionType: FlipFlopSDK.TransitionType = .slide_to_left, duration: Foundation.TimeInterval = 0.3, pipTop: CoreFoundation.CGFloat = 0.2, pipRight: CoreFoundation.CGFloat = 0.2, pipRatio: CoreFoundation.CGFloat = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.7)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class HKView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
@@ -374,6 +381,18 @@ extension UIKit.UIImage {
     get
     set
   }
+}
+public enum AECAudioStreamError : Swift.Error {
+  case osStatusError(status: Darwin.OSStatus)
+}
+public class AECAudioStream {
+  public var rendererClosure: ((Swift.UnsafeMutablePointer<CoreAudioTypes.AudioBufferList>, Swift.UInt32) -> Swift.Void)?
+  public var enableRendererCallback: Swift.Bool
+  public init(sampleRate: Swift.Float64, enableRendererCallback: Swift.Bool = false, rendererClosure: ((Swift.UnsafeMutablePointer<CoreAudioTypes.AudioBufferList>, Swift.UInt32) -> Swift.Void)? = nil)
+  public func startAudioStream(enableAEC: Swift.Bool, enableRendererCallback: Swift.Bool = false, rendererClosure: ((Swift.UnsafeMutablePointer<CoreAudioTypes.AudioBufferList>, Swift.UInt32) -> Swift.Void)? = nil) throws
+  public func stopAudioUnit() throws
+  public func resetAudioMode()
+  @objc deinit
 }
 public struct ZoomInfo {
   public let min: CoreFoundation.CGFloat
@@ -1822,6 +1841,9 @@ public enum RTMPObjectEncoding : Swift.UInt8 {
     get
   }
 }
+public struct PlayVideoParams {
+  public init(repeatPlayback: Swift.Bool = false, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), noiseSuppressor: Swift.Bool = true)
+}
 @objc @_inheritsConvenienceInitializers public class FFStreamerConfig : ObjectiveC.NSObject {
   public var preset: FlipFlopSDK.Preset
   public var videoProfile: Swift.String
@@ -1900,6 +1922,14 @@ public protocol FFAlarmDelegate : AnyObject {
     get
     set
   }
+  public var whiteBalanceTemperature: Swift.Float {
+    get
+    set(value)
+  }
+  public var autoWhiteBalance: Swift.Bool {
+    get
+    set(value)
+  }
   public var minExposureTargetBias: Swift.Float {
     get
   }
@@ -1932,7 +1962,10 @@ public protocol FFAlarmDelegate : AnyObject {
   public func zoom(factor: CoreFoundation.CGFloat)
   public func getCameraZoomInfo() -> FlipFlopSDK.ZoomInfo
   public func setBackground(backgroundImage: UIKit.UIImage?, scale: CoreFoundation.CGFloat = 0.25)
-  public func setBackground(asset: AVFoundation.AVAsset?)
+  public func playVideo(assets: [AVFoundation.AVAsset], videoParams: FlipFlopSDK.PlayVideoParams = PlayVideoParams(), transitionParams: FlipFlopSDK.VideoTransitionParams = VideoTransitionParams.overlay_on_center(duration: 0.2))
+  public func stopVideo(transitionParams: FlipFlopSDK.VideoTransitionParams? = nil)
+  public func getVolumeInPlayingVideo() -> Swift.Float
+  public func setVolumeInPlayingVideo(volume: Swift.Float)
   public func showImage(overlayImage: UIKit.UIImage, transitionParams: FlipFlopSDK.TransitionParams = TransitionParams())
   public func hideImage(transitionParams: FlipFlopSDK.TransitionParams? = nil)
   public func setFilter(filter: FlipFlopSDK.VideoFilter)

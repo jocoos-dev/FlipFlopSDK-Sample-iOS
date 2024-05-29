@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IYyNZRINL4GSlh6/S3wL0uQyy6I=
+		I4UQTNYb2RwkoW8WAP2KunwZbSI=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LC1laummkrm7CwDin6Elw95m4Gs=
+		Oyy4tknDa/hrsM8gDVvAKndLhAo=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		BF6ubJOQD/suu3IDzMeBv55U0ic=
+		vaN/PEpWsAFe0spYUU0usqVMxDk=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		qmdRVlIdJF2CiAvl2dPyWzHcQBc=
+		WXbrY2CKrhvrBjXBaCrMvLe3NeY=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BF6ubJOQD/suu3IDzMeBv55U0ic=
+		vaN/PEpWsAFe0spYUU0usqVMxDk=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gad0BhT8ekqrPgGAab2WrrdmcKc=
+		LzqjrRSvSY0JCKdUar6mCpPZ0K0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kApwZH4b3VhV30ps/iPDL/zWwocUKKxztRlgA1wSbdk=
+			up9iikg/FpnRYUtwjJpLb1nDaznuJQPtUj4Vd3+yuTg=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/Fd59QssRU4QPyBAmzU2po9tCo811UbFlRvD3JxP44=
+			hESlI4+3CfVA/fR0GdmJFIt8k/Gx5/VCUPGftvDaR48=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dj/1KJr5YL1lMaeCI+pwVTGzC7BRDEoXfv3eNEDmWwo=
+			N8ehHYF4zY5ifR0EqgSY9dThQv8rzVLP+pDaJIh53w0=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/Fd59QssRU4QPyBAmzU2po9tCo811UbFlRvD3JxP44=
+			hESlI4+3CfVA/fR0GdmJFIt8k/Gx5/VCUPGftvDaR48=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kny4REU7uSU3a0gH+uh+Y1ZWM5ZdZgiGO8TBZsDmTYw=
+			wN03DTWVvvb44ElbeKlhty+W9M7T7L5EpZL7qmEYErQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
