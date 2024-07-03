@@ -1985,6 +1985,7 @@ extension FlipFlopSDK.FFStreamer {
   public func onRTMPStopped()
   public func onRTMPError(notification: Foundation.Notification)
   public func onVideoBitrateChanged(newBitrate: Swift.Int, maxBitrate: Swift.Int)
+  public func onVideoPlayError(error: FlipFlopSDK.FFError)
 }
 extension FlipFlopSDK.FFStreamer : FlipFlopSDK.WebRTCStreamerDelegate {
   public func onWebRTCConnected()
