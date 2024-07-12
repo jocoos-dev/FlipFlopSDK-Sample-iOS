@@ -127,6 +127,17 @@ public typealias UploadProgressBlock = ((Swift.Float) -> Swift.Void)?
 public struct Config {
   public init()
   public init(apiServerURI: Swift.String, rtmpServerURI: Swift.String, webrtcServerURI: Swift.String, gossipServerURI: Swift.String)
+  public init(server: FlipFlopSDK.Config.Server)
+  public enum Server {
+    case test1
+    case test2
+    case test3
+    public static func == (a: FlipFlopSDK.Config.Server, b: FlipFlopSDK.Config.Server) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
 }
 public enum Resolution {
   case fhd
@@ -2026,6 +2037,8 @@ extension FlipFlopSDK.RTMPSharedObject : Swift.CustomDebugStringConvertible {
 public struct MediaConfig {
   public init(width: Swift.Int, height: Swift.Int, videoBitrate: Swift.Int, keyFrameInterval: Swift.Int, fps: Swift.Int, sampleRate: Swift.Int, audioBitrate: Swift.Int, cameraPos: AVFoundation.AVCaptureDevice.Position)
 }
+extension FlipFlopSDK.Config.Server : Swift.Equatable {}
+extension FlipFlopSDK.Config.Server : Swift.Hashable {}
 extension FlipFlopSDK.Resolution : Swift.Equatable {}
 extension FlipFlopSDK.Resolution : Swift.Hashable {}
 extension FlipFlopSDK.FLVAVCPacketType : Swift.Equatable {}
