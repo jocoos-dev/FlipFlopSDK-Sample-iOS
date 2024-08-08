@@ -1852,8 +1852,12 @@ public enum RTMPObjectEncoding : Swift.UInt8 {
     get
   }
 }
+public protocol PlayVideoDelegate : AnyObject {
+  func onPlayEnded(index: Swift.Int, asset: AVFoundation.AVAsset)
+  func onCompleted()
+}
 public struct PlayVideoParams {
-  public init(repeatPlayback: Swift.Bool = false, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), noiseSuppressor: Swift.Bool = true)
+  public init(repeatPlayback: Swift.Bool = false, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), noiseSuppressor: Swift.Bool = true, delegate: (any FlipFlopSDK.PlayVideoDelegate)? = nil)
 }
 @objc @_inheritsConvenienceInitializers public class FFStreamerConfig : ObjectiveC.NSObject {
   public var preset: FlipFlopSDK.Preset
@@ -1974,9 +1978,11 @@ public protocol FFAlarmDelegate : AnyObject {
   public func getCameraZoomInfo() -> FlipFlopSDK.ZoomInfo
   public func setBackground(backgroundImage: UIKit.UIImage?, scale: CoreFoundation.CGFloat = 0.25)
   public func playVideo(assets: [AVFoundation.AVAsset], videoParams: FlipFlopSDK.PlayVideoParams = PlayVideoParams(), transitionParams: FlipFlopSDK.VideoTransitionParams = VideoTransitionParams.overlay_on_center(duration: 0.2))
+  public func changeVideo(index: Swift.Int)
   public func stopVideo(transitionParams: FlipFlopSDK.VideoTransitionParams? = nil)
   public func getVolumeInPlayingVideo() -> Swift.Float
   public func setVolumeInPlayingVideo(volume: Swift.Float)
+  public func updatePlayVideoParams(videoParams: FlipFlopSDK.PlayVideoParams)
   public func showImage(overlayImage: UIKit.UIImage, transitionParams: FlipFlopSDK.TransitionParams = TransitionParams())
   public func hideImage(transitionParams: FlipFlopSDK.TransitionParams? = nil)
   public func setFilter(filter: FlipFlopSDK.VideoFilter)

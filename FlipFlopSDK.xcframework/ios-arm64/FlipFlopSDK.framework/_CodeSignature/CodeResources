@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NHPpL3v9Rg8JTdUbGb81xF0/WKs=
+		G97nhm7GeBrguQACyR3waz45LlE=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		e8jbZ7AA/LnW/U4d96gSO8u8KWo=
+		AFhkNuyXtm+2FjO5141yhazfTqw=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ToJZ1Ov+vwy9y3APESjxM8/R/rM=
+		iznbCcbqfIJUIMY/qGm7zydqPv8=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ToJZ1Ov+vwy9y3APESjxM8/R/rM=
+		iznbCcbqfIJUIMY/qGm7zydqPv8=
 		</data>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		L0A55X8kUOMDe5H7Ok83C2x6Cg4=
+		RGv8wR5HydLbWJpjPThY0noPEmk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vS/4Pk3Y1grYw0/xdSiItKvS2gQaovG49ooE9P/jXCk=
+			/YeDquFuUqbpcj2nYWN+oBcJyKzQI8QDGncpfokY5Us=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cNQfxk4jXMsPwoTdX/BPJXHTpIXyIUPCo/j8JOTGzkQ=
+			OC+UqwlZoGiw+E+me6G69bS6XhGgfaCRjrKVwOPMnSo=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cNQfxk4jXMsPwoTdX/BPJXHTpIXyIUPCo/j8JOTGzkQ=
+			OC+UqwlZoGiw+E+me6G69bS6XhGgfaCRjrKVwOPMnSo=
 			</data>
 		</dict>
 		<key>Modules/FlipFlopSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zx64abgCBuQea8DLH5EkKWzKluoBDRdOX3NOGz79600=
+			Beku1IOVyEkjQDl/6lMr2W51yttEfvYUvYFQI0D4X3s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
