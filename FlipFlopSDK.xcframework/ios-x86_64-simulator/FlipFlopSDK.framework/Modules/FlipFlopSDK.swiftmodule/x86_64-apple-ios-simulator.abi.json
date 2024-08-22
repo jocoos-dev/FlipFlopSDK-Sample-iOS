@@ -90343,392 +90343,392 @@
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 773,
+      "offset": 868,
       "length": 49,
       "value": "\"com.haishinkit.HaishinKit.VideoIOComponent.lock\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "Array",
-      "offset": 1619,
+      "offset": 1714,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3429,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3231,
+      "offset": 3437,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3556,
+      "offset": 3762,
       "length": 40,
       "value": "\"while locking device for fps: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 3595,
+      "offset": 3801,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 3886,
+      "offset": 4092,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 4980,
+      "offset": 5186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 5177,
+      "offset": 5383,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 5298,
+      "offset": 5504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 5688,
+      "offset": 5894,
       "length": 51,
       "value": "\"focusMode(\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 5720,
+      "offset": 5926,
       "length": 1,
       "value": "\") is not supported\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 5942,
+      "offset": 6148,
       "length": 58,
       "value": "\"continuousAutofocus focusMode(\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 5994,
+      "offset": 6200,
       "length": 1,
       "value": "\") set\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6066,
+      "offset": 6272,
       "length": 46,
       "value": "\"while locking device for autofocus: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6111,
+      "offset": 6317,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6450,
+      "offset": 6656,
       "length": 76,
       "value": "\"continuousExposure exposureMode(\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6507,
+      "offset": 6713,
       "length": 1,
       "value": "\") is not supported\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6735,
+      "offset": 6941,
       "length": 50,
       "value": "\"continuousExposure(\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6779,
+      "offset": 6985,
       "length": 1,
       "value": "\") set\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6851,
+      "offset": 7057,
       "length": 47,
       "value": "\"while locking device for autoexpose: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 6897,
+      "offset": 7103,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 7572,
+      "offset": 7778,
       "length": 57,
       "value": "\"while locking device for focusPointOfInterest: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 7628,
+      "offset": 7834,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "FloatLiteral",
-      "offset": 7823,
+      "offset": 8029,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "FloatLiteral",
-      "offset": 8058,
+      "offset": 8264,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 8456,
+      "offset": 8662,
       "length": 79,
       "value": "\"setExposureTargetBias device.exposureTargetBias: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 8534,
+      "offset": 8740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 8975,
+      "offset": 9181,
       "length": 85,
       "value": "\"setExposureTargetBias exposureTargetBias: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 9044,
+      "offset": 9250,
       "length": 1,
       "value": "\": time: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 9059,
+      "offset": 9265,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 9201,
+      "offset": 9407,
       "length": 60,
       "value": "\"while locking device for exposurePointOfInterest: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 9260,
+      "offset": 9466,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "FloatLiteral",
-      "offset": 8167,
+      "offset": 8373,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 9967,
+      "offset": 10173,
       "length": 60,
       "value": "\"while locking device for exposurePointOfInterest: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 10026,
+      "offset": 10232,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 10298,
+      "offset": 10504,
       "length": 42,
       "value": "\"RTMPStreamer: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 10339,
+      "offset": 10545,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 10961,
+      "offset": 11167,
       "length": 53,
       "value": "\"while locking device for autoWhiteBalance: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 11013,
+      "offset": 11219,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 11553,
+      "offset": 11759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 12071,
+      "offset": 12277,
       "length": 64,
       "value": "\"while locking device for setTemperatureAndTintValues: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 12134,
+      "offset": 12340,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 12817,
+      "offset": 13023,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 15644,
+      "offset": 15850,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 15953,
+      "offset": 16159,
       "length": 42,
       "value": "\"torchMode(\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 15976,
+      "offset": 16182,
       "length": 1,
       "value": "\") is not supported\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 16234,
+      "offset": 16440,
       "length": 31,
       "value": "\"while setting torch: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "StringLiteral",
-      "offset": 16264,
+      "offset": 16470,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 18138,
+      "offset": 18379,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 19064,
+      "offset": 19305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 20978,
+      "offset": 22084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "Array",
-      "offset": 22142,
+      "offset": 23358,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "Array",
-      "offset": 22213,
+      "offset": 23429,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "Array",
-      "offset": 22324,
+      "offset": 23540,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/rtmp\/Sources\/Media\/VideoIOComponent.swift",
       "kind": "Array",
-      "offset": 23261,
+      "offset": 24477,
       "length": 2,
       "value": "[]"
     },
