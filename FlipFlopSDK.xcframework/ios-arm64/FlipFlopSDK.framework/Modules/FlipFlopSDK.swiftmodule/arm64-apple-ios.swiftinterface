@@ -1857,7 +1857,7 @@ public protocol PlayVideoDelegate : AnyObject {
   func onCompleted()
 }
 public struct PlayVideoParams {
-  public init(repeatPlayback: Swift.Bool = false, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), noiseSuppressor: Swift.Bool = true, delegate: (any FlipFlopSDK.PlayVideoDelegate)? = nil)
+  public init(repeatPlayback: Swift.Bool = false, startIndex: Swift.Int = 0, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), noiseSuppressor: Swift.Bool = true, delegate: (any FlipFlopSDK.PlayVideoDelegate)? = nil)
 }
 @objc @_inheritsConvenienceInitializers public class FFStreamerConfig : ObjectiveC.NSObject {
   public var preset: FlipFlopSDK.Preset
