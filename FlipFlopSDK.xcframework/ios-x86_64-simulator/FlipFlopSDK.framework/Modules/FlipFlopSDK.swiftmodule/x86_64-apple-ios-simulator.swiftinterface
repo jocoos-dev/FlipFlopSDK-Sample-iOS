@@ -1988,6 +1988,7 @@ public protocol FFAlarmDelegate : AnyObject {
   public func setFilter(filter: FlipFlopSDK.VideoFilter)
   public func playGif(named: Swift.String, completion: (() -> Swift.Void)?) throws
   public func mute(on: Swift.Bool)
+  public func muteMic(on: Swift.Bool)
   public func setPointOfInterest(focus: CoreFoundation.CGPoint)
   public func setPointOfInterest(exposure: CoreFoundation.CGPoint)
 }
