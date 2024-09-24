@@ -223,7 +223,7 @@ extension CoreImage.CIImage {
 public enum VideoTransitionParams {
   case overlay_on_center(duration: Foundation.TimeInterval = 0.2)
   case overlay_on_top(duration: Foundation.TimeInterval = 0.2)
-  case overlay_from_top(duration: Foundation.TimeInterval = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.7)
+  case overlay_from_top(duration: Foundation.TimeInterval = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.7, alignRatio: CoreFoundation.CGFloat = 0.0)
 }
 public enum TransitionType {
   case none
@@ -241,7 +241,7 @@ public enum TransitionType {
   }
 }
 public struct TransitionParams {
-  public init(transitionType: FlipFlopSDK.TransitionType = .slide_to_left, duration: Foundation.TimeInterval = 0.3, pipTop: CoreFoundation.CGFloat = 0.2, pipRight: CoreFoundation.CGFloat = 0.2, pipRatio: CoreFoundation.CGFloat = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.7)
+  public init(transitionType: FlipFlopSDK.TransitionType = .slide_to_left, duration: Foundation.TimeInterval = 0.3, pipTop: CoreFoundation.CGFloat = 0.2, pipRight: CoreFoundation.CGFloat = 0.2, pipRatio: CoreFoundation.CGFloat = 0.2, cameraRatio: CoreFoundation.CGFloat = 0.7, alignRatio: CoreFoundation.CGFloat = 0.0)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class HKView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public static var defaultBackgroundColor: UIKit.UIColor
