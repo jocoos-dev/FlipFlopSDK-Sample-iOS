@@ -1856,8 +1856,17 @@ public protocol PlayVideoDelegate : AnyObject {
   func onPlayEnded(index: Swift.Int, asset: AVFoundation.AVAsset)
   func onCompleted()
 }
+public enum VideoScaleMode : Swift.Int {
+  case resizeAspect
+  case resizeAspectFill
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public struct PlayVideoParams {
-  public init(repeatPlayback: Swift.Bool = false, startIndex: Swift.Int = 0, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), noiseSuppressor: Swift.Bool = true, delegate: (any FlipFlopSDK.PlayVideoDelegate)? = nil)
+  public init(repeatPlayback: Swift.Bool = false, startIndex: Swift.Int = 0, mute: Swift.Bool = true, muteMic: Swift.Bool = false, backgroundColor: UIKit.UIColor = UIColor(red: 27, green: 38, blue: 182, alpha: 1), scaleMode: FlipFlopSDK.VideoScaleMode = .resizeAspect, noiseSuppressor: Swift.Bool = true, delegate: (any FlipFlopSDK.PlayVideoDelegate)? = nil)
 }
 @objc @_inheritsConvenienceInitializers public class FFStreamerConfig : ObjectiveC.NSObject {
   public var preset: FlipFlopSDK.Preset
@@ -2119,6 +2128,9 @@ extension FlipFlopSDK.RTMPConnection.Code : Swift.RawRepresentable {}
 extension FlipFlopSDK.RTMPObjectEncoding : Swift.Equatable {}
 extension FlipFlopSDK.RTMPObjectEncoding : Swift.Hashable {}
 extension FlipFlopSDK.RTMPObjectEncoding : Swift.RawRepresentable {}
+extension FlipFlopSDK.VideoScaleMode : Swift.Equatable {}
+extension FlipFlopSDK.VideoScaleMode : Swift.Hashable {}
+extension FlipFlopSDK.VideoScaleMode : Swift.RawRepresentable {}
 extension FlipFlopSDK.StreamingProtocol : Swift.Equatable {}
 extension FlipFlopSDK.StreamingProtocol : Swift.Hashable {}
 extension FlipFlopSDK.StreamingProtocol : Swift.RawRepresentable {}
