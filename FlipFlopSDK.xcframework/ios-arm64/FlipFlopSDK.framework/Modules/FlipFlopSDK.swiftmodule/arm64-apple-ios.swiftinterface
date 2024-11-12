@@ -234,6 +234,7 @@ public enum TransitionType {
   case fade_in_pip
   case enter_top
   case enter_fade_in
+  case enter_on_top_fade_in
   public static func == (a: FlipFlopSDK.TransitionType, b: FlipFlopSDK.TransitionType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -1880,6 +1881,7 @@ public struct PlayVideoParams {
   public var cameraPos: AVFoundation.AVCaptureDevice.Position
   public var visibility: Swift.String
   public var videoGravity: AVFoundation.AVLayerVideoGravity
+  public var previewGravity: AVFoundation.AVLayerVideoGravity
   @objc override dynamic public init()
   @objc override dynamic public var description: Swift.String {
     @objc get
@@ -2000,6 +2002,7 @@ public protocol FFAlarmDelegate : AnyObject {
   public func muteMic(on: Swift.Bool)
   public func setPointOfInterest(focus: CoreFoundation.CGPoint)
   public func setPointOfInterest(exposure: CoreFoundation.CGPoint)
+  public func setPreviewScaleMode(videoGravity: AVFoundation.AVLayerVideoGravity)
 }
 extension FlipFlopSDK.FFStreamer {
   public func onInSufficentBW()
