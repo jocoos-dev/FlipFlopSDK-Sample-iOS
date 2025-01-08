@@ -99753,357 +99753,371 @@
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 3084,
+      "offset": 2760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3122,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5299,
+      "offset": 5337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5326,
+      "offset": 5364,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5357,
+      "offset": 5395,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 5388,
+      "offset": 5426,
       "length": 3,
       "value": "-90"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "FloatLiteral",
-      "offset": 5548,
+      "offset": 5586,
       "length": 5,
       "value": "180.0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 5736,
+      "offset": 5774,
       "length": 19,
       "value": "\"handleReadyToPlay\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5791,
+      "offset": 5829,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 5919,
+      "offset": 5957,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 6507,
+      "offset": 6545,
       "length": 87,
       "value": "\"videoAngleInDegree: third = \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 6557,
+      "offset": 6595,
       "length": 1,
       "value": "\" : \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 6593,
+      "offset": 6631,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 8306,
+      "offset": 8344,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 8390,
+      "offset": 8428,
       "length": 69,
       "value": "\"No video track found: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 8458,
+      "offset": 8496,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9458,
+      "offset": 9496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9493,
+      "offset": 9531,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9581,
+      "offset": 9619,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10023,
+      "offset": 10061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 11762,
+      "offset": 11800,
       "length": 55,
       "value": "\"Error MTAudioProcessingTapCreate : \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 11816,
+      "offset": 11854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 11997,
+      "offset": 12035,
       "length": 17,
       "value": "\"No audio tracks\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12547,
-      "length": 96,
-      "value": "\"init tap: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12564,
-      "length": 10,
-      "value": "\" clientInfo: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12610,
-      "length": 13,
-      "value": "\" tapStorageOut: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12642,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12756,
-      "length": 22,
-      "value": "\"finalize tap: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 12777,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 13099,
-      "length": 83,
-      "value": "\"prepare tap: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 13119,
-      "length": 9,
-      "value": "\" itemCount: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 13143,
-      "length": 16,
-      "value": "\" basicDescription: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 13181,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 13903,
+      "offset": 12082,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 14021,
-      "length": 18,
-      "value": "\"unprepare \""
+      "offset": 12618,
+      "length": 96,
+      "value": "\"init tap: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 14038,
+      "offset": 12635,
+      "length": 10,
+      "value": "\" clientInfo: \""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 12681,
+      "length": 13,
+      "value": "\" tapStorageOut: \""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 12713,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 14528,
-      "length": 48,
-      "value": "\"Error TapGetSourceAudio :\""
+      "offset": 12827,
+      "length": 22,
+      "value": "\"finalize tap: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 14575,
+      "offset": 12848,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15139,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15172,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 13170,
+      "length": 83,
+      "value": "\"prepare tap: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 15304,
-      "length": 61,
-      "value": "\"Error CMAudioFormatDescriptionCreate :\""
+      "offset": 13190,
+      "length": 9,
+      "value": "\" itemCount: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 15364,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15561,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15880,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16076,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16153,
-      "length": 1,
-      "value": "0"
+      "offset": 13214,
+      "length": 16,
+      "value": "\" basicDescription: \""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "StringLiteral",
-      "offset": 16289,
-      "length": 51,
-      "value": "\"Error CMSampleBufferCreate: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 16339,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16599,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 16709,
-      "length": 77,
-      "value": "\"Error CMSampleBufferSetDataBufferFromAudioBufferList: \""
-    },
-    {
-      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
-      "kind": "StringLiteral",
-      "offset": 16785,
+      "offset": 13252,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 17190,
+      "offset": 13974,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 14092,
+      "length": 18,
+      "value": "\"unprepare \""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 14109,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 14599,
+      "length": 48,
+      "value": "\"Error TapGetSourceAudio :\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 14646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15210,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 15375,
+      "length": 61,
+      "value": "\"Error CMAudioFormatDescriptionCreate :\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 15435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15632,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16147,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 16360,
+      "length": 51,
+      "value": "\"Error CMSampleBufferCreate: \""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 16410,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 16780,
+      "length": 77,
+      "value": "\"Error CMSampleBufferSetDataBufferFromAudioBufferList: \""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 16856,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17261,
       "length": 4,
       "value": "true"
     },
@@ -100117,7 +100131,7 @@
     {
       "filePath": "\/Users\/soonhyung\/programming\/ios\/flipflop-ios-sdk-hlive-github\/FlipFlopMediaSDK\/AVOutputPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 17988,
+      "offset": 18152,
       "length": 5,
       "value": "false"
     },
