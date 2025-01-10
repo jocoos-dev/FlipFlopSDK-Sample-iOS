@@ -1854,6 +1854,7 @@ public enum RTMPObjectEncoding : Swift.UInt8 {
   }
 }
 public protocol PlayVideoDelegate : AnyObject {
+  func onPlayStarted(index: Swift.Int, asset: AVFoundation.AVAsset)
   func onPlayEnded(index: Swift.Int, asset: AVFoundation.AVAsset)
   func onCompleted()
 }
@@ -1989,7 +1990,7 @@ public protocol FFAlarmDelegate : AnyObject {
   public func getCameraZoomInfo() -> FlipFlopSDK.ZoomInfo
   public func setBackground(backgroundImage: UIKit.UIImage?, scale: CoreFoundation.CGFloat = 0.25)
   public func playVideo(assets: [AVFoundation.AVAsset], videoParams: FlipFlopSDK.PlayVideoParams = PlayVideoParams(), transitionParams: FlipFlopSDK.VideoTransitionParams = VideoTransitionParams.overlay_on_center(duration: 0.2))
-  public func changeVideo(index: Swift.Int)
+  public func changeVideo(index: Swift.Int) -> Swift.Bool
   public func stopVideo(transitionParams: FlipFlopSDK.VideoTransitionParams? = nil)
   public func getVolumeInPlayingVideo() -> Swift.Float
   public func setVolumeInPlayingVideo(volume: Swift.Float)
